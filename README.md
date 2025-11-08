@@ -5,7 +5,7 @@ Minimal loading screen resource for FGSK servers. Shows a custom HTML/CSS page, 
 ## Features
 - FXDK-ready loadscreen (`fxmanifest.lua` + `index.html`, `style.css`, `script.js`).
 - Displays progress updates received via `loadProgress` events from FXServer.
-- Client script shuts down both the loadscreen and loadscreen NUI, then triggers the custom spawn pipeline (`fgsk-spawn-manager-wrapper`) after the player becomes active.
+- Client script shuts down both the loadscreen and loadscreen NUI, then triggers the custom spawn pipeline (`fgsk-spawnwrapper`) after the player becomes active.
 - Optional `/intro_force_spawn` command and `intro:beginSpawnFlow` event for manual testing.
 
 ## Usage

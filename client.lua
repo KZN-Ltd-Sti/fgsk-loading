@@ -19,7 +19,7 @@ local function triggerSpawnFlow()
         ShutdownLoadingScreenNui()
     end
 
-    TriggerEvent('fgsk-spawn:begin')
+    TriggerEvent('fgsk-spawnwrapper:begin')
 end
 
 local function waitForSessionAndSpawn()
